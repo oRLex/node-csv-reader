@@ -1,0 +1,32 @@
+
+
+.form{
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form__label{
+    width: 180px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #333;
+    color: #333;
+}
+.form__input {
+   display: none;
+}
+.form__file{
+    display: flex;
+    align-items: center;
+}
+.form__file> span{
+    font-size: 14px;
+}
