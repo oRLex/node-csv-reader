@@ -84,7 +84,6 @@ const TableRow = props => {
         <tr key={index}>
             <th>{index + 1}</th>
             {renderRow()}
-            <td>{row.count}</td>
         </tr>
     );
 };

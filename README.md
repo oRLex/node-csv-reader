@@ -1,6 +1,7 @@
 # node-csv-reader
 
-install all dependecies
+### Install all dependecies
+`npm run install-all`
 
 ### run dev server
-### npm run dev
+`npm run dev`

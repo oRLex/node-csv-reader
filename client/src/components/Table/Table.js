@@ -17,8 +17,9 @@ const Table = ({data}) => {
     const [isAll, setShowAll] = useState(false);
 
     function renderHead() {
-        const modifiedcolumns = ["ID", ...columns, "Duplicate width"];
-        return modifiedcolumns.map((h) => <th>{h}</th>)
+        const modifiedcolumns = ["ID", ...columns];
+        modifiedcolumns[modifiedcolumns.length -1] = "Duplicates with"
+        return modifiedcolumns.map((h,) => <th>{h}</th>)
     }
 
     function renderAll() {

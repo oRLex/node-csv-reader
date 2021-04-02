@@ -1,10 +1,11 @@
 {
-  "name": "csv-reader",
+  "name": "node-react-csv-reader",
   "version": "0.0.1",
   "description": "csv reader",
   "main": "./server/index.js",
   "scripts": {
     "start": "node ./build/index.js && npm run build --prefix client ",
+    "install-all": "npm install && npm install --prefix client",
     "server": "nodemon",
     "client": "npm start --prefix client",
     "clean": "rm -rf build && mkdir build",
